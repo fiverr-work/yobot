@@ -84,22 +84,7 @@ const OpenBidsStyle = styled.section`
       }
     }
   }
-  table {
-    width: 100%;
-    tbody tr {
-      background-color: #212429;
-      border: 1px solid #2c2f36;
-      td {
-        padding: 10px;
-      }
-      td:first-child {
-        border-bottom-left-radius: 16px;
-        border-top-left-radius: 16px;
-      }
-      td:last-child {
-        border-bottom-right-radius: 16px;
-        border-top-right-radius: 16px;
-      }
-    }
+  @media (max-width: 768px) {
+    max-width: 100%;
   }
 `;

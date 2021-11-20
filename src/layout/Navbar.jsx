@@ -102,11 +102,14 @@ const NavbarStyle = styled.nav`
     }
     @media (max-width: 768px) {
       justify-content: space-between;
+      flex-wrap: wrap;
       .brand {
         width: 100px;
       }
       .wallet {
-        display: none;
+        margin-top: 10px;
+        width: 100%;
+        /* display: none; */
       }
     }
   }

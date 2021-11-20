@@ -6,14 +6,9 @@ import { ReactComponent as Headline } from "../img/headline.svg";
 import BG from "../img/bg.png";
 
 const Home = () => {
-  const walletData = {
-    address: "0x71dwd1XXXXXXXXXXXXXXXXcTwU",
-    balance: 0.4,
-    state: "green",
-  };
   return (
     <>
-      <Navbar walletData={walletData} />
+      <Navbar />
       <Section className="container">
         <div className="hero">
           <Headline />

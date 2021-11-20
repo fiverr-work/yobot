@@ -3,9 +3,14 @@ import PlaceBids from "../layout/PlaceBids";
 import OpenBids from "../layout/OpenBids";
 
 const PlaceBid = () => {
+  const walletData = {
+    address: "0x71dwd1XXXXXXXXXXXXXXXXcTwU",
+    balance: 0.4,
+    state: "green",
+  };
   return (
     <>
-      <Navbar />
+      <Navbar walletData={walletData} />
       <div className="container">
         <PlaceBids />
         <OpenBids />

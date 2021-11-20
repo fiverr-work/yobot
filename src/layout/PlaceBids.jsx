@@ -92,11 +92,8 @@ const PlaceBidsStyle = styled.section`
     color: #fff;
   }
   @media (max-width: 768px) {
-    width: 100%;
+    max-width: 100%;
     flex-direction: column;
-    form {
-      flex: 1;
-    }
   }
 `;
 
@@ -247,7 +244,6 @@ const DetailsStyle = styled.div`
     }
   }
   @media (max-width: 768px) {
-    flex: 1;
     right: 0;
     bottom: 40px;
     border-radius: 0px 0px 27px 27px;
