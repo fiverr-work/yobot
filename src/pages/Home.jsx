@@ -1,7 +1,10 @@
-import Navbar from "../layout/Navbar";
 import styled from "styled-components";
+
+import Navbar from "../layout/Navbar";
+
 import { ReactComponent as Headline } from "../img/headline.svg";
 import BG from "../img/bg.png";
+
 const Home = () => {
   const walletData = {
     address: "0x71dwd1XXXXXXXXXXXXXXXXcTwU",
