@@ -1,0 +1,110 @@
+// Black Bison
+@font-face {
+  font-family: "Roboto Thin";
+  src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto LightItalic";
+  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Black";
+  src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto ThinItalic";
+  src: url("../fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto MediumItalic";
+  src: url("../fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto BoldItalic";
+  src: url("../fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto BlackItalic";
+  src: url("../fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+}
+body {
+  font-family: "Roboto Regular", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Bold";
+  line-height: 1;
+  margin-bottom: 0.9375rem;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: clamp(3rem, 12vw, 6.25rem);
+}
+
+h2 {
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+}
+
+h3 {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 5.5vw, 2.5rem);
+}
+
+h5 {
+  font-size: clamp(1.2rem, 4.5vw, 2rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 4vw, 1.7rem);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+.btn,
+button {
+  font-family: "Roboto Medium";
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
